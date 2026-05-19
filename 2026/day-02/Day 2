@@ -1,0 +1,19 @@
+✴️ Day 2 of 90 - Today i learned how linux actually works, what is kernel, shell basically i learn about linux architecture & some basic linux commands.
+
+Linux - Linux is OS & everything in linux is process. It's start with systemd (PDI1)
+
+Linux architecure : 
+Hardware --- Kernel --- shell --- Application
+
+Kernel - Kernal is a heart of linux system. It manage low level task including memory managnment, process scheduling & device drivers.
+Shell - The interface between the user & the kernel. The shell interprets GUI (Graphical user interface) intraction & translate them into kernel commands.
+Application -  The Programs the user runs daily such as web browser, Text editor etc ...
+
+Some basic commands that i practice today.
+
+- pwd - Present Working Directory
+- cd - change working directory
+- ls - List available file & folders
+- cat - Read file 
+- vim - edit file 
+- echo - print
