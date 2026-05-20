@@ -1,1 +1,43 @@
+Today i practice 20 commands of linux
+1) print : print the present working directory
+2) ls : list file & command in the current directory
+      ls -l : displat detail info about file & directory
+3)cd : change the current directory to specfied diectory
+  cd .. : go up one level in directory hieraechy
+  cd ~ : go to the home directory
+4)mkdire : make new directory
+5)rm : remove a file
+  rm -r : remove a directory & it's contents recursively
+6)cp : copy a file or directory
+  cp -r : copy a directory & it's content recrsively
+7)mv : move or rename a file or directory
+8)touch : create a file
 
+B)FILE MANIPULATION :
+1)cat : Display the contentof file
+2)less file : view the content of file with pagination
+3)head file : Display the first few lines of a file
+4)tail file : display the last few lines of a file
+5)grep pattern :search for a pattern in file
+  grep -r pattern: search a pattern a file within a directory
+ 
+c)TEXT EDITING:
+1)nano file: open a file for editing with nano editor
+2)vim file: open a file for editing with vim editor
+  
+D)SYSTEM INFORMATION:
+1)uname : print system information
+2)whoami:display the current user
+3)df:display disk space
+4)free:display memory space
+5)uptime:show the system uptime
+
+
+
+
+
+
+
+
+1)uname : print system information
+2)whoami:display the current user
