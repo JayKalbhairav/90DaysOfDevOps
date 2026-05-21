@@ -1,0 +1,26 @@
+✴️ Day 4 of #90DaysOfDevOps
+Today i practiced important linux monitoring & service commands like ps, ps -ef, top/htop systemctl, journalctl. i also explored different
+linux processes & services such as cron, networking related services.
+
+-Process commands 
+
+  ps - process status : display a snapshot of current process
+
+  ps aux : show all process for all users
+
+  ps -ef : display all format including parent process id
+
+  top/htop : provide real time view of running process
+
+-Service commands
+
+ systemctl start ngnix - start the service
+
+ systemctl status ngnix - check the service is active/inactive
+
+-Log command
+
+journalctl : view all logs
+journalctl -f : follow logs in real time
+
+tail -f var/log/syslog : countinousaly monitor new entries in system log
