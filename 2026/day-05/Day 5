@@ -1,0 +1,46 @@
+✴️ Day 5 of #90DaysOfDevOps
+✔️  Today i learned about a runbook, what is runbook, why its important & how to create a standard runbook 
+Runbook is a step-by-step troubleshooting or operational guide that helps you solve the some issue quickly in future.
+
+✔️ Below commands used for health check & troubleshooting 
+
+✔️ cpu monitoring :
+
+htop : for CPU consuming process
+mpstat : show the CPU stat per core
+
+✔️ memory monitoring :
+
+free -m : show ram uses in mb
+
+✔️ disk managnment process :
+
+df -h : show filesystrem uses
+du -sh/var/log/* : find large file / dirctories
+
+✔️ network commands :
+
+ss -tulnp : show listning ports & services
+t : TCP, U : UDP, l : listening, n : numeric, p : process
+
+✔️ Service managment :
+
+sudo systemctl status nginx : check the service status
+journalctl -u nginx -n 50 : view the service logs
+u : unit / service, n : last 50 lines
+tail -f /var/log//nginx/error.log : watch the logs in real time
+
+✔️ Process Commands :
+
+ps aux : list all process
+kill -9 PID : force stop process
+
+✔️ Why runbook matters in DevOps :
+
+1) Faster recovery
+
+2) Reduced downtime
+
+3) Team collaboration
+
+4) Knowledge sharing
