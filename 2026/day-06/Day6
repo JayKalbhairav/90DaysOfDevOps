@@ -1,0 +1,38 @@
+✴️ Day 6 of #90DaysOfDevOps
+
+✔️ Today i learn about file manipulation in linux that every devops engineer must have.
+
+
+
+✔️ Here what i practiced today :
+
+
+
+🗒️ touch notes.txt : 
+
+▶️ Created a new empty file
+
+
+✍ echo ' ' > notes.txt : 
+
+▶️ write content into the file or overwrite existing content
+
+✍ echo ' ' >> notes.txt : 
+
+▶️ append content without overwrite
+
+👓 cat notes.txt : 
+
+▶️ display the file content
+
+👀 head -n 2 : 
+
+▶️ display the first 2 lines of the file
+
+👀 tail -n 2 : 
+
+▶️ display the last 2 lines of the file
+
+✍ echo ' ' | tee -a notes.txt : 
+
+▶️ it's use for append text & display it on terminal simultaneousaly.
