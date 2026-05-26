@@ -1,9 +1,6 @@
 ✴️ Day 9 of #90DaysOfDevOps 
 
-
-
 ✔️ Todays goal is to practice user & group management by completing hands-on challenge
-
 
 
 ✔️ Task --> Today's goal is to practice user and group management by completing hands on challenge.
@@ -19,7 +16,6 @@
 5 - Team workplace 
 
 
-
 ✔️ Below the commands i used :
 
 sudo useradd username : For create user
@@ -30,6 +26,5 @@ sudo groupadd : Create group
 
 sudo usermod -aG group username : Add group to user
 
-
-
 Seccessfully executed all task on a live AWS EC2 instance.
+
