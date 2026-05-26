@@ -1,0 +1,35 @@
+✴️ Day 9 of #90DaysOfDevOps 
+
+
+
+✔️ Todays goal is to practice user & group management by completing hands-on challenge
+
+
+
+✔️ Task --> Today's goal is to practice user and group management by completing hands on challenge.
+
+1 - Create multi user with home directories & password
+
+2 - Create group
+
+3 - Assign users to groups 
+
+4 - Share directories
+
+5 - Team workplace 
+
+
+
+✔️ Below the commands i used :
+
+sudo useradd username : For create user
+
+sudo passwd username : For set password
+
+sudo groupadd : Create group
+
+sudo usermod -aG group username : Add group to user
+
+
+
+Seccessfully executed all task on a live AWS EC2 instance.
