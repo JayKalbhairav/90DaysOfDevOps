@@ -1,0 +1,44 @@
+🚀  Day 11 of #90DaysOfDevOps
+
+✔️ Today i worked on linux file ownership & group management concepts:
+
+✔️ Understanding filr ownership & groups
+
+✔️ Using chown to change file owners
+
+✔️ Using chgrp to change groups
+
+✔️ Managing owner & group together
+
+✔️ Recursive ownership change with chown -R
+
+✔️ Creating users & group in linux 
+
+✔️ Verifying permission using -l
+
+
+Below commands i used :
+
+ls -l : long file listing
+
+touch : create empty file
+
+mkdir : create empty dirctory
+
+mkdir -p : create a nested directories
+
+useradd : create user
+
+groupadd : create group
+
+chown : change owner
+
+chown:group : change both
+
+chown -R : recursive ownership 
+
+ls -lR : recursive listing
+
+
+Learning linux administration step by step building strong DevOps fundamentals. 🔥 
+
