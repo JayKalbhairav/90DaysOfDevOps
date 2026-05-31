@@ -1,0 +1,20 @@
+🚀 Day 12 of #90DaysOfDevOps
+
+✅ Over the past 12 days, I have been building a strong foundation in linux by practicing hands-on commands and real-worls administration tasks.
+
+✅ File Managnment ( ls, cp, mv, touch, cat )
+
+✅ Directory Operations ( mkdir, pwd, find )
+
+✅ User & group managment ( useradd, chown, chgrp, groupadd, chmod ) 
+
+✅ Process managnment ( ps, kill, systemctl, journalctl, top, htop )
+
+✅ Packet managnment ( apt )
+
+✅ SSH & Remote access
+
+✅ Linux logs & monitoring
+
+
+Each day of practice is helping me understand how linux power modern Devops, Cloud & Infrastructure environments.
