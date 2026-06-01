@@ -1,0 +1,24 @@
+🚀 Day 13 of #90DaysOfDevOps journey - Linux LVM ( Logical volume management )
+
+✔️ Today, I gained hands-on experience with LVM on linux & AWS EC2.
+
+✅ Checked storage devices using lsblk, pvs, vgs and lvs
+
+✅ Created a Physical volume (PV) from an attached EBS volumes
+
+✅ Created a Volume group (VG) to manage storage efficienly
+
+✅ Created a Logical volume (LV) for application data
+
+✅ Formatted the LV with ext4 filesystem
+
+✅ Mounted the filesystem & verify the resize the filesystem without data loss
+
+✅ Key learning :
+
+LVM enables flexible storage management, allowing DevOps engineers to expand disk space dynamically without rebuilding servers or causing significant downtime.
+
+
+✅ LVM Architecture: 
+
+      Disk ---> PV ---> VG ---> LV ---> Filesystem ---> Mount Point 
