@@ -1,0 +1,33 @@
+🚀 Day 14 of #90DaysOfDevops
+
+✔️ Today I practiced on Networking concepts that are essential in a DevOps enviorment.
+
+🌐 OSI vs TCP/IP
+
+OSI (7 Layers):
+
+ Application → Presentation → Session → Transport → Network → Data Link → Physical
+
+TCP/IP (4 Layers):
+
+ Application → Transport → Internet → Link
+
+Understand where IP, TCP, UDP, DNS, HTTP, HTTPS fits in networking stack
+
+✔️ Performed network diagnostics using Linux commands such as ping, traceroute, ss -tulnp, netstat, nslookup & curl.
+
+🖥️ Hands-on practice :
+
+✅ Identified server IP addresses
+
+✅ Tested network reachability & latency
+
+✅ Traced packet routes across network
+
+✅ Monitor active ports & services
+
+✅ Perfoemed DNS lookups & troubleshooting
+
+
+
+These are the some troubleshooting & monitoring skills used by DevOps engineers to maintain application availability, diagnose network issues & ensure reliable communication between systems.
