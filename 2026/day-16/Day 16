@@ -1,0 +1,120 @@
+🚀 Day 16 of #90DaysOfDevOps
+
+
+
+Shell scripting step by step!
+
+
+
+Today I practice some shell scripting fundaments:
+
+
+
+✅ Working with variables 
+
+✅ Taking user input using read
+
+✅ Using if-elif-else condition
+
+✅ Checking whether a number is positive, negative or zero
+
+✅ Checking service status & performing operation based on its state
+
+✅ Understanding command substitution & storing commands output in variables
+
+
+
+One thing I learned is that even small syntax mistakes, can cause scripts to behave unexpectedly. Debugging these issue helped me better understand how bash processes commands.
+
+
+
+Looking forward to exploring loops, functions & more advanced Linux administration tasks next!
+
+
+
+Some ShellScripts I would like the share with you:
+
+1 ) Check file name & filepath :
+
+#!/bin/bash
+
+
+
+read -p 'type your file name : ' file
+
+
+
+if [ -f $file ]; then
+
+	echo "file exit"
+
+	echo "file path : $(realpath "$file")"
+
+
+
+	echo "________file content__________"
+
+	cat $file
+
+else
+
+	echo "sry, file not found make sure your file path"
+
+fi
+
+
+
+2 ) Check the number is positive, negative or zero :
+
+
+
+#!/bin/bash
+
+
+
+read -p "enter your favourite number, i'll tell your it's positive, negative or zero: " number
+
+
+
+if [ "$number" -lt 0 ]; then
+
+	echo "your number is negative"
+
+elif [ "$number" -eq 0 ]; then
+
+	echo "your number is zero"
+
+else 
+
+	echo "your number is positive"
+
+fi
+
+
+
+3 ) Check the service status :
+
+#!/bin/bash
+
+read -p "which service status you want to see :" name
+
+
+read -p "do u want to check the service (y/n) ?" choice
+
+
+if [ "$choice" = "y" ]; then 
+
+	sudo systemctl status $name
+
+	echo "Active"
+
+elif [ "$choice" = "n" ]; then
+
+	echo "skipped"
+
+else
+
+	echo "invalid input please inter y or n"
+
+fi
+
