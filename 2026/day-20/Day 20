@@ -1,0 +1,14 @@
+🚀 Day 20 Of hashtag#90DaysOfDevOps
+
+Today I worked on a log_analyzer.sh script that automates log analysis and reporting.
+
+✅ Validates input files
+✅ Counts ERROR and Failed events
+✅ Detects CRITICAL incidents with line numbers
+✅ Identifies the Top 5 recurring error messages
+✅ Generates a detailed summary report
+✅ Archives processed logs automatically
+
+This project helped me strengthen my Bash scripting skills while working with tools like grep, sed, sort, uniq, and shell scripting concepts such as loops, conditionals, and file handling.
+
+Small automation scripts like this can save significant time when troubleshooting server and application logs.
